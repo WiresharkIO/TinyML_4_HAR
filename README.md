@@ -20,5 +20,10 @@
          Eating Soup (H), Eating Chips (I), Eating Pasta (J), Drinking from Cup (K), Eating Sandwich (L)
 
 
-- M5-WATCH Stick C Plus based dataset.
+- M5-WATCH Stick C Plus based dataset. 
 
+      Activity chosen for this project:
+        - Walking
+        - Eating 
+        - Typing
+        - Sedentary (standing and sitting) 
