@@ -7,15 +7,20 @@
 (HAR_ESP32_venv) PS D:\research_project\HAR_ESP32\studio> pyinstaller --onefile --windowed --name "HAR Data Acquisition"
  --icon=data_acq_icon.ico imu_collector.py
 ```
-- output of this will be application file with the name "HAR Data Acquisition.exe" in the "dist" folder. You can run this executable to start the data acquisition process. The application will create .csv and .txt files with the collected IMU data.
+
+<!-- <img width="30" height="30" alt="image" src="https://github.com/user-attachments/assets/cc45387d-9c0a-45e1-88aa-46c15328c386" /> -->
+
+- output of this will be application file with the name "HAR Data Acquisition.exe" in the "dist" folder. You can run this executable to start the data acquisition process. The application will create .csv and .txt files with the collected IMU data.  <img width="30" height="30" alt="image" src="https://github.com/user-attachments/assets/cc45387d-9c0a-45e1-88aa-46c15328c386" />
 
 
 
-<img align="left" width="600" height="400" alt="data_acquisition" src="https://github.com/user-attachments/assets/b182c4aa-f533-4abc-bb63-1b013ec0d8b2" />
+
+<img width="600" height="400" alt="data_acquisition" src="https://github.com/user-attachments/assets/b182c4aa-f533-4abc-bb63-1b013ec0d8b2"/>
 
 
 
 What this Desktop-Application does (data perspective):
+
 
 1. Scans for BLE devices and connects to the M5StickC by address.
 
