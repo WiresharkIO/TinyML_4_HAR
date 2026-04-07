@@ -10,7 +10,7 @@
 
 <!-- <img width="30" height="30" alt="image" src="https://github.com/user-attachments/assets/cc45387d-9c0a-45e1-88aa-46c15328c386" /> -->
 
-- output of this will be application file with the name "HAR Data Acquisition.exe" in the "dist" folder. You can run this executable to start the data acquisition process. The application will create .csv and .txt files with the collected IMU data. [ <img width="30" height="30" alt="image" src="https://github.com/user-attachments/assets/cc45387d-9c0a-45e1-88aa-46c15328c386" /> ]
+- Output of this will be application file with the name "HAR Data Acquisition.exe" in the "dist" folder. You can run this executable to start the data acquisition process. The application will create .csv and .txt files with the collected IMU data. [ <img width="30" height="30" alt="image" src="https://github.com/user-attachments/assets/cc45387d-9c0a-45e1-88aa-46c15328c386" /> ]
 
 <p align="center">
   <img width="600" height="400" alt="data_acquisition" src="https://github.com/user-attachments/assets/b182c4aa-f533-4abc-bb63-1b013ec0d8b2"/>
