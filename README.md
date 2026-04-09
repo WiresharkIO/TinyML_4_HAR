@@ -47,7 +47,7 @@
 
      example: For $\pm 8g$ --> Sensitivity (LSB/g) = 4,096 (LSB/g) --> meaning at $\pm 8g$ FSR: 1 step = 1 / 4096 = 0.000244 g (the resolution) !!
 
-__"These should be kept in mind while selecting or changing the firmware(library functions) for g values to capture an activity"__
+   __"These should be kept in mind while selecting or changing the firmware(library functions) for g values to capture an activity"__
       
 > Misc
 
