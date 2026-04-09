@@ -43,6 +43,7 @@
         - ±8g (M5StickC Plus default value of 'g' via M5Stack library)
         - ±16g
   3. lower g values can help capture incredibly fine, detailed nuances of gentle movements. While higher g values are used to capture movements such as falling and activities like shock.
+  4. Sensitivity (LSB/g), the Scale Factor answers the question - "How many raw steps make up 1g of physical acceleration?" which is given by Sensitivity = $\frac{32768}{FSR Max}$
       
 > Misc
 
