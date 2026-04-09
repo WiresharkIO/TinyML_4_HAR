@@ -46,6 +46,8 @@
   4. Sensitivity (LSB/g), the scale Factor answers the question - "How many raw steps make up 1g of physical acceleration?" which is given by __Sensitivity = $\frac{32768}{FSR Max}$__.
 
      example: For $\pm 8g$ --> Sensitivity (LSB/g) = 4,096 (LSB/g) --> meaning at $\pm 8g$ FSR: 1 step = 1 / 4096 = 0.000244 g (the resolution) !!
+
+__"These should be kept in mind while selecting or changing the firmware(library functions) for g values to capture an activity"__
       
 > Misc
 
