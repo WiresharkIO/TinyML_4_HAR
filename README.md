@@ -28,7 +28,15 @@
         - Typing
         - Sedentary (standing and sitting)
 
+> 6-Axis IMU (MPU6886)
 
-<img width="400" height="500" alt="image" src="https://github.com/user-attachments/assets/b0de1805-d42e-4e03-b09d-33931e227cc9" />
+<p align="center">
+      <img width="400" height="500" alt="image" src="https://github.com/user-attachments/assets/b0de1805-d42e-4e03-b09d-33931e227cc9"/>      
+</p>
 
+
+> Misc
+
+- Power On: Press the reset button for at least 2 seconds
+- Power Off: Press the reset button for at least 6 seconds
 
