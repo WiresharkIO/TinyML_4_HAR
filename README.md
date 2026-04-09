@@ -26,4 +26,9 @@
         - Walking
         - Eating 
         - Typing
-        - Sedentary (standing and sitting) 
+        - Sedentary (standing and sitting)
+
+
+<img width="400" height="500" alt="image" src="https://github.com/user-attachments/assets/b0de1805-d42e-4e03-b09d-33931e227cc9" />
+
+
