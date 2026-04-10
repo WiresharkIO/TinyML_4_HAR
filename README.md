@@ -36,14 +36,14 @@
 
 - Accelerometer - points to be considered for proper $\pm g$ selection :
   
-  1. The __MPU-6886__ features a 16-bit (-32,768 to +32,767) Analog-to-Digital Converter (ADC) for each axis (X, Y, Z), meaning the sensor has exactly 65,536 total steps to describe the physical acceleration it feels.
-  2. The __Full Scale Range - FSR__ is the maximum physical acceleration the sensor can measure before it "clips" or "saturates" (maxes out). The MPU-6886 has a programmable FSR with four options:
+  - The __MPU-6886__ features a 16-bit (-32,768 to +32,767) Analog-to-Digital Converter (ADC) for each axis (X, Y, Z), meaning the sensor has exactly 65,536 total steps to describe the physical acceleration it feels.
+  - The __Full Scale Range - FSR__ is the maximum physical acceleration the sensor can measure before it "clips" or "saturates" (maxes out). The MPU-6886 has a programmable FSR with four options:
         - ±2g
         - ±4g
         - ±8g (M5StickC Plus default value of 'g' via M5Stack library)
         - ±16g
-  3. Lower g values can help capture incredibly fine, detailed nuances of gentle movements. While higher g values are used to capture movements such as falling and activities like shock.
-  4. Sensitivity (LSB/g), the scale Factor answers the question - "How many raw steps make up 1g of physical acceleration?" which is given by __Sensitivity = $\frac{32768}{FSR Max}$__.
+  - Lower g values can help capture incredibly fine, detailed nuances of gentle movements. While higher g values are used to capture movements such as falling and activities like shock.
+  - Sensitivity (LSB/g), the scale Factor answers the question - "How many raw steps make up 1g of physical acceleration?" which is given by __Sensitivity = $\frac{32768}{FSR Max}$__.
 
      example: For $\pm 8g$ --> Sensitivity (LSB/g) = 4,096 (LSB/g) --> meaning at $\pm 8g$ FSR: 1 step = 1 / 4096 = 0.000244 g (the resolution) !!
 
