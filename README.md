@@ -53,7 +53,10 @@
       Step B: Converting the g-value to m/s², Acceleration (m/ $s^2$) = Acceleration (g) × 9.81
     
    __"These should be kept in mind while selecting or changing the firmware(library functions) for g values to capture an activity"__
+  
+- Gyroscope - Instead of measuring linear acceleration (g), the gyroscope measures angular velocity (how fast the device is spinning).
       
+
 > Misc
 
 - Power On: Press the reset button for at least 2 seconds
