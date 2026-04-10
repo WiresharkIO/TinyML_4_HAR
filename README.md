@@ -45,8 +45,13 @@
   - Lower g values can help capture incredibly fine, detailed nuances of gentle movements. While higher g values are used to capture movements such as falling and activities like shock.
   - Sensitivity (LSB/g), the scale Factor answers the question - "How many raw steps make up 1g of physical acceleration?" which is given by __Sensitivity = $\frac{32768}{FSR Max}$__.
 
-     example: For $\pm 8g$ --> Sensitivity (LSB/g) = 4,096 (LSB/g) --> meaning at $\pm 8g$ FSR: 1 step = 1 / 4096 = 0.000244 g (the resolution) !!
+      Example: For $\pm 8g$ --> Sensitivity (LSB/g) = 4,096 (LSB/g) --> meaning at $\pm 8g$ FSR: 1 step = 1 / 4096 = 0.000244 g (the resolution) !!
+  - To convert the raw data into standard SI units compatible with machine learning datasets like WISDM:
+    
+      Step A: Converting Raw sampled ADC value to g, Acceleration (g) = $\frac{Raw ADC Value}{Sensitivity (LSB/g)}$
 
+      Step B: Converting the g-value to m/s², Acceleration (m/ $s^2$) = Acceleration (g) × 9.81
+    
    __"These should be kept in mind while selecting or changing the firmware(library functions) for g values to capture an activity"__
       
 > Misc
