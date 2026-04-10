@@ -55,7 +55,12 @@
    __"These should be kept in mind while selecting or changing the firmware(library functions) for g values to capture an activity"__
   
 - Gyroscope - Instead of measuring linear acceleration (g), the gyroscope measures angular velocity (how fast the device is spinning).
-      
+  
+  - The standard physical unit for a gyroscope is Degrees Per Second (dps or °/s) but ususally converted to standard SI unit - Radians Per Second (rad/s) to compatible with machine learning datasets like WISDM:
+    
+      Step A: Converting raw sampled ADC values to Degrees Per Second (dps), Angular Velocity (dps) = $\frac{Raw ADC Value}{Sensitivity (LSB/dps)}$
+
+      Step B: Converting dps to Radians Per Second (rad/s), Angular Velocity (rad/s) = Angular Velocity (dps) X $\frac{π}{180}$
 
 > Misc
 
