@@ -28,6 +28,14 @@
         - Typing
         - Sedentary (standing and sitting)
 
+## Hardware - ESP32-PICO-D4 Dual-Core Processor
+
+> Constraints
+
+- Flash - 4MB
+- SRAM - 520KB
+- Frequency - 240MHz
+  
 > 6-Axis IMU (MPU6886)
 
 <p align="center">
@@ -69,7 +77,7 @@
 
       Step B: Converting dps to Radians Per Second (rad/s), Angular Velocity (rad/s) = Angular Velocity (dps) X $\frac{π}{180}$
 
-> Misc
+> Power On / Off
 
 - Power On: Press the reset button for at least 2 seconds
 - Power Off: Press the reset button for at least 6 seconds
