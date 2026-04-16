@@ -1,5 +1,12 @@
 # Getting started
 
+## Overview
+
+This project focuses on classifying human activities using data collected from IMU using the M5-watch [StickC Plus].
+<p align="center">
+      <img width="400" height="500" alt="Activities" src="https://github.com/user-attachments/assets/2048a75d-414f-45c8-9f7c-7d7302800c56" />
+</p>
+
 ## Dataset
 
 - WISDM - Standardized dataset for wide-patterns.
