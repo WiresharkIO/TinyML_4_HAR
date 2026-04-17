@@ -3,7 +3,7 @@
 
 This project focuses on classifying human activities using data collected from IMU using the M5-watch [StickC Plus].
 <p align="center">
-      <img width="600" height="500" alt="Activities" src="https://github.com/user-attachments/assets/368f163e-0d20-4d4e-861f-2c9253e3491a" />
+      <img width="500" height="500" alt="Activities" src="https://github.com/user-attachments/assets/368f163e-0d20-4d4e-861f-2c9253e3491a" />
 </p>
 
 ## Dataset
@@ -45,7 +45,7 @@ This project focuses on classifying human activities using data collected from I
 > 6-Axis IMU (MPU6886)
 
 <p align="center">
-      <img width="400" height="500" alt="image" src="https://github.com/user-attachments/assets/b0de1805-d42e-4e03-b09d-33931e227cc9"/>      
+      <img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/b0de1805-d42e-4e03-b09d-33931e227cc9"/>      
 </p>
 
 - Accelerometer - points to be considered for proper $\pm g$ selection :
