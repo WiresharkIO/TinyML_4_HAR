@@ -3,7 +3,7 @@
 
 This project focuses on classifying human activities using data collected from IMU using the M5-watch [StickC Plus].
 <p align="center">
-      <img width="400" height="500" alt="Activities" src="https://github.com/user-attachments/assets/368f163e-0d20-4d4e-861f-2c9253e3491a" />
+      <img width="600" height="500" alt="Activities" src="https://github.com/user-attachments/assets/368f163e-0d20-4d4e-861f-2c9253e3491a" />
 </p>
 
 ## Dataset
