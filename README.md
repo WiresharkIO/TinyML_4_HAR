@@ -3,8 +3,12 @@
 
 This project focuses on classifying human activities using data collected from IMU using the M5-watch [StickC Plus].
 <p align="center">
-      <img width="500" height="500" alt="Activities" src="https://github.com/user-attachments/assets/368f163e-0d20-4d4e-861f-2c9253e3491a" />
+      <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/ab424573-25b6-45ad-8dc0-066bc712dba5" />
+      <!--<img width="500" height="500" alt="Activities" src="https://github.com/user-attachments/assets/368f163e-0d20-4d4e-861f-2c9253e3491a" />--> 
 </p>
+
+
+
 
 ## Dataset
 
@@ -33,6 +37,7 @@ This project focuses on classifying human activities using data collected from I
         - Eating 
         - Typing
         - Sedentary (standing and sitting)
+        - Writing
 
 ## Hardware - ESP32-PICO-D4 Dual-Core Processor
 
