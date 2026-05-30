@@ -1,6 +1,8 @@
 
 - **"imu_collector.py"** has everything related to the data acquisition process, including BLE scanning, connecting to the M5StickC, subscribing to the characteristic UUID, receiving JSON packets, parsing the data, and writing it to .csv and .txt files.
 
+> __BUT__ before running this, the firmware side of the data acquisition should be in place. Meaning the M5StickC must be flashed with firmware (using Arduino IDE in this project).
+
 - Run this command in the terminal to create a standalone executable for the data acquisition application:
 
 ```console
