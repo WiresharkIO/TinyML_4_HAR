@@ -1,7 +1,7 @@
 
 ## Overview
 
-This project focuses on classifying human activities using data collected from IMU using the M5-watch [StickC Plus].
+This project focuses on classifying human activities using data collected from IMU using the M5-watch [StickC Plus], that's the most laymen way of putting it forward, but we try to do cross dataset learning by using a standardized view across dataset and fine-tuning the model to adapt to the M5-watch.
 <p align="center">
       <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/ab424573-25b6-45ad-8dc0-066bc712dba5" />
       <!--<img width="500" height="500" alt="Activities" src="https://github.com/user-attachments/assets/368f163e-0d20-4d4e-861f-2c9253e3491a" />--> 
