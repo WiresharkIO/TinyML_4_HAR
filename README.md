@@ -1,7 +1,7 @@
 
 ## Overview
 
-This project focuses on classifying human activities using data collected from IMU using the M5-watch [StickC Plus], that's the most layman way of putting it forward, but we try to do cross dataset learning by using a standardized view across dataset and fine-tuning the model to adapt to the M5-watch.
+This project focuses on classifying human activities using data collected from IMU sensor embedded in the M5-watch [StickC Plus] based on ESP32 SoC, that's the most layman way of putting it forward, but what we try to do precisely is cross dataset (or also called cross device) learning by maintaining a standardized view across the dataset (other platform vs M5-watch IMU) and fine-tuning the learned model to adapt to the M5-watch intricacies.
 <p align="center">
       <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/ab424573-25b6-45ad-8dc0-066bc712dba5" />
       <!--<img width="500" height="500" alt="Activities" src="https://github.com/user-attachments/assets/368f163e-0d20-4d4e-861f-2c9253e3491a" />--> 
