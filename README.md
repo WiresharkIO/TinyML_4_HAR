@@ -7,7 +7,13 @@ This project focuses on classifying human activities using data collected from I
       <!--<img width="500" height="500" alt="Activities" src="https://github.com/user-attachments/assets/368f163e-0d20-4d4e-861f-2c9253e3491a" />--> 
 </p>
 
+This is an end-to-end work which involves steps similar to:
 
+
+
+<p align="center">
+      <img width="900" height="300" alt="pretrain_flow (1)" src="https://github.com/user-attachments/assets/c73981fa-4ec5-45a0-8634-a66c40c60b69" />
+</p>
 
 
 ## Dataset
