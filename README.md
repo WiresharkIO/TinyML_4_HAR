@@ -51,11 +51,30 @@ This is an end-to-end work which involves steps such as:
 - SRAM - 520KB
 - Frequency - 240MHz
   
-> 6-Axis IMU (MPU6886)
+> 6-Axis IMU (MPU6886) orientation with respect to the watch
 
+ <!--
 <p align="center">
       <img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/b0de1805-d42e-4e03-b09d-33931e227cc9"/>      
 </p>
+-->
+
+<div align="center">
+
+<table>
+  <tr>
+    <td align="center">
+      <img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/b0de1805-d42e-4e03-b09d-33931e227cc9" />
+    </td>
+    <td align="center">
+      <img width="400" height="300" alt="IMU_orientation" src="https://github.com/user-attachments/assets/d39d6c76-00cf-4fd7-97dd-acfa6aadb044" />
+    </td>
+  </tr>
+</table>
+
+</div>
+
+__Optional read about IMU - which is an integrated term or describes measurement of accelerometer, gyroscope, and magnetometer (we donot make use of magnetometer based data in this project).__
 
 - Accelerometer - points to be considered for proper $\pm g$ selection :
   
