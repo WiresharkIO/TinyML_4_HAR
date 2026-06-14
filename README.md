@@ -118,6 +118,7 @@ __Optional read about IMU - which is an integrated term or describes measurement
 
 ## References
 
-1. **StickC-Plus - m5-docs** — https://docs.m5stack.com/en/core/m5stickc_plus
-2. **A benchmark for domain adaptation and generalization in smartphone-based human activity recognition** — https://www.nature.com/articles/s41597-024-03951-4#Tab5
+1. **StickC-Plus - m5-docs.** https://docs.m5stack.com/en/core/m5stickc_plus
+2. **A benchmark for domain adaptation and generalization in smartphone-based human activity recognition.** https://www.nature.com/articles/s41597-024-03951-4#Tab5
+3. **WISDM Smartphone and Smartwatch Activity and Biometrics Dataset.** https://archive.ics.uci.edu/dataset/507/wisdm+smartphone+and+smartwatch+activity+and+biometrics+dataset
 
